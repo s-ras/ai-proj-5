@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"module": "node16",
+		"moduleResolution": "node16",
+		"moduleDetection": "force",
+		"target": "esnext",
+		"lib": [
+			"DOM",
+			"DOM.Iterable",
+			"ES2022"
+		],
+		"jsx": "react-jsx",
+		"jsxImportSource": "react",
+		"declaration": true,
+		"newLine": "lf",
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"skipLibCheck": true,
+		"baseUrl": ".",
+		"types": [
+			"node"
+		],
+	},
+	"include": [
+		"src"
+	]
+}
